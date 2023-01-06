@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Quiz!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Coding Quiz!</h1>
+    </header>
+    
+    <div>
+        <button id="js-start-btn">Start Quiz</button>
+    </div>
+<!-- button will disappear when clicked on -->
+    <div class="is-hidden" id="js-question-container">
+        <div> 
+            Time Left <Span id="js-countdown"></Span>
+        </div>
+    </div>
+<!-- timer starting to countdown -->
+
+<!-- create box container for questions and answers. Indicate if questions is correct or wrong. Account for time deduction is answer is wrong. Move onto the next question -->
+    <div> 
+        <p class="is-hidden" id="js-quiz">Question placeholder </p>
+    </div>
+
+    <div class="is-hidden"> 
+        <button id="choiceOne">Option 1</button>
+        <button id="choiceTwo">Option 2</button>
+        <button id="choiceThree">Option 3</button>
+        <button id="choiceFour">Option 4</button>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
